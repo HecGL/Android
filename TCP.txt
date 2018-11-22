@@ -1,0 +1,11 @@
+https://github.com/codepath/android_guides/wiki/Sending-and-Receiving-Data-with-Sockets
+
+https://www.researchgate.net/publication/303737681_Socket_Programming_WIFI_Chat_APP_For_Android_Smartphone
+
+https://developer.android.com/reference/java/net/SocketOptions
+
+https://www.youtube.com/watch?v=29y4X65ZUwE
+
+https://stackoverflow.com/questions/38162775/really-simple-tcp-client
+
+http://codesmith.in/control-pc-from-android-app-using-java/
