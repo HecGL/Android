@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mando Bluetooth</string>
+    <string name="Tittle">Mando Game Boy Advance</string>
+    <string name="ButtonA">A</string>
+    <string name="ButtonB">B</string>
+    <string name="ButtonStart">Start</string>
+    <string name="ButtonSelect">Select</string>
+
+
+</resources>
