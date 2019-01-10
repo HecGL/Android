@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Background">#222288</color>
+    <color name="DirButton">#888888</color>
+    <color name="White">#FFFFFF</color>
+    <color name="AButton">#22FF22</color>
+    <color name="BButton">#FF2222</color>
+
+</resources>
