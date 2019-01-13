@@ -1,8 +1,6 @@
 package com.example.hguti.multi;
 
-import android.content.Intent;
 import android.media.MediaPlayer;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,19 +21,17 @@ public class Piano extends AppCompatActivity {
     MediaPlayer FGsound;
     MediaPlayer GAsound;
     MediaPlayer ABsound;
+    MediaPlayer FurElise;
+    MediaPlayer HappyBirthday;
+    int hb;
+    int fe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_piano);
-        //final MediaPlayer Csound = MediaPlayer.create(this, R.raw.cnote);
-        /*MediaPlayer Dsound = MediaPlayer.create(this, R.raw.dnote);
-        MediaPlayer Esound = MediaPlayer.create(this, R.raw.enote);
-        MediaPlayer Fsound = MediaPlayer.create(this, R.raw.fnote);
-        MediaPlayer Gsound = MediaPlayer.create(this, R.raw.gnote);
-        MediaPlayer Asound = MediaPlayer.create(this, R.raw.anote);
-        MediaPlayer Bsound = MediaPlayer.create(this, R.raw.bnote);
-        MediaPlayer Cplusound = MediaPlayer.create(this, R.raw.cplus);*/
+        hb=0;
+        fe = 0;
         Button c = (Button) findViewById(R.id.CBtn);
         Button d = (Button) findViewById(R.id.DBtn);
         Button e = (Button) findViewById(R.id.EBtn);
@@ -49,6 +45,9 @@ public class Piano extends AppCompatActivity {
         Button fg = (Button) findViewById(R.id.FGBtn);
         final Button ga = (Button) findViewById(R.id.GABtn);
         Button ab = (Button) findViewById(R.id.ABBtn);
+        Button hidden1 = (Button) findViewById(R.id.HiddenBtn1);
+        Button hidden2 = (Button) findViewById(R.id.HiddenBtn2);
+
 
         c.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -220,11 +219,54 @@ public class Piano extends AppCompatActivity {
                 ABsound.start();
             }
         });
-
-
-
-
-
-
+        hidden1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                if(fe==0){
+                FurElise= MediaPlayer.create(Piano.this, R.raw.furelise);
+                FurElise.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer FurElise) {
+                        // TODO Auto-generated method stub
+                        FurElise.release();
+                        fe = 0;
+                    }
+                });}
+                if(fe==0) {
+                    FurElise.start();
+                    fe = 1;
+                }
+                else {
+                    FurElise.reset();
+                    FurElise.stop();
+                    FurElise.release();
+                    FurElise=null;
+                    fe = 0;
+                }
+            }
+        });
+        hidden2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                if(hb==0){
+                HappyBirthday = MediaPlayer.create(Piano.this, R.raw.hpbdy);
+                HappyBirthday.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer HappyBirthday) {
+                        // TODO Auto-generated method stub
+                        HappyBirthday.release();
+                        hb=0;
+                    }
+                });}
+                if (hb == 0) {
+                    HappyBirthday.start();
+                    hb = 1;
+                } else {
+                    HappyBirthday.reset();
+                    HappyBirthday.stop();
+                    HappyBirthday.release();
+                    HappyBirthday=null;
+                    hb = 0;
+                }
+            }
+        });
     }
 }

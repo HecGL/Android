@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
         Intent solicitud = new Intent(this, Piano.class);
         startActivity(solicitud);
     }
+    public void GotoCredits(View view){
+        Intent solicitud = new Intent(this, Credits.class);
+        startActivity(solicitud);
+    }
 }

@@ -5,8 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:screenOrientation="portrait">
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/CreditsBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:onClick="GotoCredits"
+        android:text="@string/Credits"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/pureBlue"
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,16 +28,24 @@
         android:textStyle="bold"
         android:textColor="@color/pureBlack"/>
 
-            <Button
-                android:id="@+id/PianoBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Piano"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textSize="18sp"
-                android:textStyle="bold|italic"
-                android:onClick="GotoPiano"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/PianoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Piano"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="90dp"
+        android:onClick="GotoPiano"/>
 
     <Button
         android:id="@+id/SoundsBtn"
@@ -36,15 +55,28 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="18sp"
+        android:layout_marginTop="10dp"
         android:textStyle="bold|italic" />
-        <Button
-            android:id="@+id/TiarBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Tiar"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textSize="18sp"
-            android:textStyle="bold|italic"/>
-
+    <Button
+        android:id="@+id/TiarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tiar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"/>
+    <Button
+        android:id="@+id/dice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Dice"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
