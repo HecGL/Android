@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".tresRayas"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor" />
+        <activity android:name=".dado"
+            android:configChanges="orientation"
+            android:screenOrientation="sensor"></activity>
     </application>
 
 </manifest>

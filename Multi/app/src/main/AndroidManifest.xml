@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,9 +20,12 @@
             android:name=".Piano"
             android:configChanges="orientation"
             android:screenOrientation="sensorLandscape" />
-        <activity android:name=".Credits"
+        <activity
+            android:name=".Credits"
             android:configChanges="orientation"
-            android:screenOrientation="sensor"></activity>
+            android:screenOrientation="sensor" />
+        <activity android:name=".tresRayas" />
+        <activity android:name=".dado"></activity>
     </application>
 
 </manifest>

@@ -18,6 +18,11 @@
     <string name="CDBtn">C#</string>
     <string name="CplusBtn">C+</string>
     <string name="Dice">Dados</string>
+    <string name="boton">Tirar dado</string>
+    <string name="boton2">Reset</string>
+    <string name="juego_nuevo">Nuevo juego</string>
+
+
     <string name="Credits">Créditos</string>
     <string name="title_activity_credits">credits</string>
 
@@ -25,7 +30,7 @@
 
     <string name="Credits_doneby"><u>Hecho por:</u>\n</string>
     <string name="Credits_name">
-        Andrea Presa \n\n
+        Andrea Presa Montesinos - 14354\n\n
         David Luengo \n\n
         Héctor Gutiérrez Li - 15202 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
     </string>

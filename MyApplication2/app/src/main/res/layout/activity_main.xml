@@ -1,19 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/fragment_tres_raya"
-        android:name="com.example.andreapresa.myapplication.tresRayaFragment"
+    <Button
+        android:id="@+id/CreditsBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Credits"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Title"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout="@layout/fragment_tres_raya" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
-
-
-</android.support.constraint.ConstraintLayout>
+            <Button
+                android:id="@+id/TiarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tres en raya"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold|italic"
+                android:onClick="GototresRayas"
+                />
+            <Button
+                android:id="@+id/dice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dado"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold|italic"
+                android:onClick="Gotodado"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

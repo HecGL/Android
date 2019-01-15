@@ -20,4 +20,12 @@ public class MainActivity extends AppCompatActivity {
         Intent solicitud = new Intent(this, Credits.class);
         startActivity(solicitud);
     }
+    public void GototresRayas(View view){
+        Intent solicitud = new Intent(this, tresRayas.class);
+        startActivity(solicitud);
+    }
+    public void Gotodado(View view){
+        Intent solicitud = new Intent(this, dado.class);
+        startActivity(solicitud);
+    }
 }
