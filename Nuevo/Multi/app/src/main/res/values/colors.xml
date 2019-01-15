@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="pureBlack">#000000</color>
     <color name="White">#FFFFFF</color>
-    <color name="softGrey">#AAAAAA</color>
+    <color name="softGrey">#80AAAAAA</color>
     <color name="pureBlue">#0000FF</color>
+    <color name="BlueBack">#3080B2</color>
 </resources>

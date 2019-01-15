@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/BlueBack">
 
     <Button
         android:id="@+id/CreditsBtn"
@@ -35,50 +36,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-    <Button
-        android:id="@+id/PianoBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Piano"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:layout_marginTop="90dp"
-        android:onClick="GotoPiano"/>
 
-    <Button
-        android:id="@+id/SoundsBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Sounds"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="18sp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold|italic" />
-    <Button
-        android:id="@+id/TiarBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Tiar"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="18sp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold|italic"
-        android:onClick="GototresRayas"/>
-    <Button
-        android:id="@+id/dice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Dice"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="18sp"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold|italic"
-        android:onClick="Gotodado"/>
+            <Button
+                android:id="@+id/PianoBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/piano_img"
+                android:onClick="GotoPiano"
+                android:text="@string/Piano"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/TiarBtn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tiar_img"
+                android:onClick="GototresRayas"
+                android:text="@string/Tiar"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/dice"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dice_img"
+                android:onClick="Gotodado"
+                android:text="@string/Dice"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
