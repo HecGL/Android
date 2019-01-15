@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Multi</string>
+    <string name="Title">App multiusos</string>
+    <string name="Piano">Piano</string>
+    <string name="Sounds">Sonidos</string>
+    <string name="Tiar">Tres en raya</string>
+    <string name="ABtn">A</string>
+    <string name="BBtn">B</string>
+    <string name="CBtn">C</string>
+    <string name="DBtn">D</string>
+    <string name="EBtn">E</string>
+    <string name="FBtn">F</string>
+    <string name="GBtn">G</string>
+    <string name="ABBtn">A#</string>
+    <string name="GABtn">G#</string>
+    <string name="FGBtn">F#</string>
+    <string name="DEBtn">D#</string>
+    <string name="CDBtn">C#</string>
+    <string name="CplusBtn">C+</string>
+    <string name="Dice">Dados</string>
+    <string name="Credits">Créditos</string>
+    <string name="title_activity_credits">credits</string>
+
+    <string name="Credits_title">\nProgramación en Android </string>
+
+    <string name="Credits_doneby"><u>Hecho por:</u>\n</string>
+    <string name="Credits_name">
+        Andrea Presa \n\n
+        David Luengo \n\n
+        Héctor Gutiérrez Li - 15202 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+    </string>
+</resources>
