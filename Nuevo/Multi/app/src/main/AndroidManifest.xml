@@ -34,7 +34,8 @@
             android:screenOrientation="sensorPortrait"></activity>
         <activity android:name=".Calculator"
             android:configChanges="orientation"
-            android:screenOrientation="sensorLandscape"></activity>
+            android:screenOrientation="portrait"></activity>
+            android:configChanges="orientation"
     </application>
 
 </manifest>
