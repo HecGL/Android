@@ -32,7 +32,9 @@
             android:name=".dado"
             android:configChanges="orientation"
             android:screenOrientation="sensorPortrait"></activity>
-        <activity android:name=".Calculator"></activity>
+        <activity android:name=".Calculator"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorLandscape"></activity>
     </application>
 
 </manifest>

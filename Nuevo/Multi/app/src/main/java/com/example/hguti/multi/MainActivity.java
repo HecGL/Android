@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 counter ++;
                 if (counter ==10){
-                Toast toast = Toast.makeText(getApplicationContext(), "Relájate y disfruta de la aplicación!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "Disfruta de la aplicación!", Toast.LENGTH_SHORT);
                 toast.show();
                 toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
                 counter = 0;
@@ -51,5 +51,4 @@ public class MainActivity extends AppCompatActivity {
         Intent solicitud = new Intent(this, Calculator.class);
         startActivity(solicitud);
     }
-
 }

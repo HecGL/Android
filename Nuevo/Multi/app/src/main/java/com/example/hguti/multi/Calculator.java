@@ -25,7 +25,7 @@ public class Calculator extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_calculator);
         // Variables
         //int_aux = 0.0; total_aux = 0.0;
         //int_st = ""; total_st = ""; oper = "";

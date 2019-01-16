@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">NeverBored</string>
-    <string name="Title">NJoyApp</string>
+    <string name="Title">Never Bored App</string>
     <string name="Piano">Piano</string>
     <string name="Sounds">Sonidos</string>
     <string name="Tiar">Tres en raya</string>
+    <string name="Calculator">Calculadora</string>
     <string name="ABtn">A</string>
     <string name="BBtn">B</string>
     <string name="CBtn">C</string>
@@ -26,27 +27,31 @@
     <string name="Credits">Créditos</string>
     <string name="title_activity_credits">credits</string>
 
-    <string name="Credits_title">\nProgramación en Android </string>
+    <string name="Credits_title">Programación en Android </string>
 
     <string name="Credits_doneby"><u>Hecho por:</u>\n</string>
     <string name="Credits_name">
         \tHéctor Gutiérrez Li - 15202\n\n
         Andrea Presa Montesinos - 14354\n\n
-        David Luengo - 12 \n\n\n\n\n\n\n\n\n
+        David Luengo Moraleja - 12230 \n
+    </string>
+    <string name="Credits_role">
+        \tEstudiantes de la ETSII UPM\n\n\n\n\n
     </string>
     <string name="Acknowledgments_title"><u>Agradecimientos:</u></string>
     <string name="Acknowledgments_content">
-        \tAl profesor Ángel García por \n
-        darnos las clases de Android.\n\n\n\n\n\n\n\n\n
+        \tAl profesor Ángel García Beltrán por darnos\n
+        \tlas clases de Android.\n\n\n\n\n\n
     </string>
-    <string name="Extras_title"><u>Extras:</u></string>
+    <string name="Extras_title"><u>Extras:</u>\n</string>
     <string name="Extras_content">
         \tEn esta aplicación se han incluido algunas\n
-        funciones ocultas que te pueden resultar de utilidad.\n
-        Te animamos a encontrarlas!\n\n\n\n\n\n\n\n\n
+        \tfunciones ocultas que te pueden resultar de utilidad \n
+        \t(o quizás no).\n
+        \tEn cualquier caso, son graciosas, así que \n
+        \tte animamos a encontrarlas!\n\n\n\n\n\n\n\n\n
     </string>
 
-    <string name="Calculator">Calculator</string>
     <string name="b0">0</string>
     <string name="b1">1</string>
     <string name="b2">2</string>

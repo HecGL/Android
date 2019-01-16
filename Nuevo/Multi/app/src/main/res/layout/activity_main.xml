@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/dice_img"
+                android:background="@drawable/calculator_img"
                 android:onClick="Gotocalculator"
                 android:text="@string/Calculator"
                 android:textAlignment="center"
