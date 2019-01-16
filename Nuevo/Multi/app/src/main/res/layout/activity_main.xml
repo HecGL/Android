@@ -20,14 +20,18 @@
         android:textColor="@color/pureBlue"
         android:textSize="15sp" />
 
-    <TextView
+    <Button
+        android:id="@+id/Njoy"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="casual"
         android:text="@string/Title"
+        android:textAlignment="center"
+        android:textColor="@color/Silver"
         android:textSize="35sp"
-        android:textStyle="bold"
-        android:textColor="@color/pureBlack"/>
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="match_parent"
