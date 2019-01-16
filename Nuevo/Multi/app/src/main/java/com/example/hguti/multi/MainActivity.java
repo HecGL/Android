@@ -46,4 +46,10 @@ public class MainActivity extends AppCompatActivity {
         Intent solicitud = new Intent(this, dado.class);
         startActivity(solicitud);
     }
+
+    public void Gotocalculator(View view){
+        Intent solicitud = new Intent(this, Calculator.class);
+        startActivity(solicitud);
+    }
+
 }

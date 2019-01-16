@@ -1,4 +1,4 @@
-package com.example.user.calculator;
+package com.example.hguti.multi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,9 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.concurrent.ExecutionException;
-
-public class MainActivity extends AppCompatActivity {
+public class Calculator extends AppCompatActivity {
 
     // Botones
     private Button boton0, boton1, boton2, boton3, boton4, boton5, boton6, boton7, boton8, boton9;
@@ -322,3 +320,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
