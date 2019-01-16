@@ -23,9 +23,14 @@
         <activity
             android:name=".Credits"
             android:configChanges="orientation"
-            android:screenOrientation="sensor" />
-        <activity android:name=".tresRayas" />
-        <activity android:name=".dado"></activity>
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".tresRayas"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".dado"
+            android:configChanges="orientation"
+            android:screenOrientation="sensorPortrait">
+        </activity>
     </application>
 
 </manifest>

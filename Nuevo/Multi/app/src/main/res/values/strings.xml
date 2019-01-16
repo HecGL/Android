@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Multi</string>
-    <string name="Title">App multiusos</string>
+    <string name="app_name">NeverBored</string>
+    <string name="Title">NJoyApp</string>
     <string name="Piano">Piano</string>
     <string name="Sounds">Sonidos</string>
     <string name="Tiar">Tres en raya</string>
@@ -30,8 +30,19 @@
 
     <string name="Credits_doneby"><u>Hecho por:</u>\n</string>
     <string name="Credits_name">
+        \tHéctor Gutiérrez Li - 15202\n\n
         Andrea Presa Montesinos - 14354\n\n
-        David Luengo \n\n
-        Héctor Gutiérrez Li - 15202 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+        David Luengo - 12 \n\n\n\n\n\n\n\n\n
+    </string>
+    <string name="Acknowledgments_title"><u>Agradecimientos:</u></string>
+    <string name="Acknowledgments_content">
+        \tAl profesor Ángel García por \n
+        darnos las clases de Android.\n\n\n\n\n\n\n\n\n
+    </string>
+    <string name="Extras_title"><u>Extras:</u></string>
+    <string name="Extras_content">
+        \tEn esta aplicación se han incluido algunas\n
+        funciones ocultas que te pueden resultar de utilidad.\n
+        Te animamos a encontrarlas!\n\n\n\n\n\n\n\n\n
     </string>
 </resources>
