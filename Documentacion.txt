@@ -1,4 +1,3 @@
-
  _________________________________________________________________________________________________________________  
 |        _     _  ______   __       __  ______ _____            ____     ______    _____     ______    _____      | 
 |       | \   | | |  ___|  \ \     / / |  ___| | __ \          |    \   /   _  \   | __ \    |  ___|  |   _  \    | 
@@ -18,6 +17,6 @@ te vale estar bien atento a todo lo que te encuentres para disfrutar al 100% de 
 Piano.
 Tres en raya. Tradicional juego "3 en raya" al que podrás jugar acompañado.
 Dado. Esta funcionalidad te permite jugar a juegos de dados asegurando la aleatoriedad de cada tirada. 
-Calculadora.  
+Calculadora.  Una calculadora sencilla que permite realizar cuentas rápidas.
+Giroscopio. Haciendo uso del acelerómetro del dispositivo, emula el sonido dinámico de un sable láser.
 Créditos. Descripción de los desarrolladores de la aplicación y agradecimientos a los que la han hecho posible.
-
