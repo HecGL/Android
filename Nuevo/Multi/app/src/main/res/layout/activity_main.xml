@@ -20,18 +20,16 @@
         android:textColor="@color/pureBlue"
         android:textSize="15sp" />
 
-    <Button
+    <ImageButton
         android:id="@+id/Njoy"
-        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="casual"
-        android:text="@string/Title"
-        android:textAlignment="center"
-        android:textColor="@color/Silver"
-        android:textSize="35sp"
-        android:textStyle="bold" />
+        android:background="@drawable/logo_portrait"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -92,6 +90,19 @@
                 android:background="@drawable/calculator_img"
                 android:onClick="Gotocalculator"
                 android:text="@string/Calculator"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <Button
+                android:id="@+id/gyroscope"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gyroscope_img"
+                android:onClick="Gotolightsaber"
+                android:text="@string/Gyroscope"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"

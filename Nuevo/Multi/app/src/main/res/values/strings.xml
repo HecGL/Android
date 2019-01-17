@@ -5,6 +5,7 @@
     <string name="Sounds">Sonidos</string>
     <string name="Tiar">Tres en raya</string>
     <string name="Calculator">Calculadora</string>
+    <string name="Gyroscope">Giroscopio</string>
     <string name="ABtn">A</string>
     <string name="BBtn">B</string>
     <string name="CBtn">C</string>
@@ -50,6 +51,10 @@
         \t(o quizás no).\n
         \tEn cualquier caso, son graciosas, así que \n
         \tte animamos a encontrarlas!\n\n\n\n\n\n\n\n\n
+    </string>
+
+    <string name="legal">
+        Los creadores de esta aplicación no se hacen cargo de los efectos (de cualquier tipo) que esta app pueda tener en tu vida, así como de las consecuencias por un uso indebido de la misma
     </string>
 
     <string name="b0">0</string>

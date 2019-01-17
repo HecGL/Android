@@ -1,5 +1,6 @@
 package com.example.hguti.multi;
 
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,6 +27,9 @@ public class Calculator extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
+        // Orientacion
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         // Variables
         //int_aux = 0.0; total_aux = 0.0;
         //int_st = ""; total_st = ""; oper = "";
@@ -228,7 +232,13 @@ public class Calculator extends AppCompatActivity {
                     total_aux *= int_aux;
                     break;
                 case "/":
-                    total_aux /= int_aux;
+
+                    if(int_aux == 0.0){
+                        return;
+                    }
+                    else{
+                        total_aux /= int_aux;
+                    }
                     break;
                 case "^":
                     total_aux = Math.pow(total_aux, int_aux);
@@ -279,12 +289,14 @@ public class Calculator extends AppCompatActivity {
 
     public void Erase(){
         String st = current_tx.getText().toString();
-        String point_st = st.substring(st.length()-1);
-        if (point_st.equals(".")){
-            isPoint = false;
+        if(st.length()>0){
+            String point_st = st.substring(st.length()-1);
+            if (point_st.equals(".")){
+                isPoint = false;
+            }
+            st = st.substring(0, st.length()-1);
+            current_tx.setText(st);
         }
-        st = st.substring(0, st.length()-1);
-        current_tx.setText(st);
     }
 
     public void Clear(){

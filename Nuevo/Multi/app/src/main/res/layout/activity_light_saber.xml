@@ -5,16 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="bottom"
-    android:background="@drawable/lightsaberon"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
-    <Button
+    <ImageButton
         android:id="@+id/light"
-        android:layout_width="30dp"
-        android:layout_height="50dp"
-        android:background="#B93735"
-        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:background="@drawable/lightsaberon_off"/>
 
 </RelativeLayout>

@@ -13,6 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 public class LightSaber extends AppCompatActivity {
 
@@ -29,8 +32,7 @@ public class LightSaber extends AppCompatActivity {
     //      Movimiento
     //      Choque
 
-
-    private Button LightIt;     // Boton de encendido/apagado
+    private ImageButton LightIt;     // Boton de encendido/apagado
 
     private SensorManager mySM;
     private Sensor Acc;
@@ -70,9 +72,7 @@ public class LightSaber extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_light_saber);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
         final Context con = this;
-
         // Vector
         prevAccX = new float[3];
         prevAccY = new float[3];
@@ -93,8 +93,10 @@ public class LightSaber extends AppCompatActivity {
         loc_whoosh = 4;
         loc_clash = 5;
 
+
         // Sensor
         mySM = (SensorManager)getSystemService(SENSOR_SERVICE);
+
 
         PackageManager myPM = this.getPackageManager();     // Chequeamos si existe el acelerometro
         boolean isAcc = myPM.hasSystemFeature(PackageManager.FEATURE_SENSOR_ACCELEROMETER);
@@ -140,6 +142,9 @@ public class LightSaber extends AppCompatActivity {
                     SaberHum.setLooping(true);
 
                     isLighted = true;
+                    LightIt.setImageResource(R.drawable.lightsaberon);
+                    LightIt.setScaleType(ImageView.ScaleType.FIT_XY);
+
                 }
                 else{
                     // Apagar
@@ -157,6 +162,9 @@ public class LightSaber extends AppCompatActivity {
 
                     isLighted = false;
                     isFirst = true;
+                    LightIt.setImageResource(R.drawable.lightsaberon_off);
+                    LightIt.setScaleType(ImageView.ScaleType.FIT_XY);
+
                 }
             }
         });
@@ -240,6 +248,7 @@ public class LightSaber extends AppCompatActivity {
                     SaberHum.pause();
                     SaberWhoosh.start();
                 }
+
             }
 
             else if((deltaX > clashX || deltaY > clashY || deltaZ > clashZ) && isLighted){
@@ -278,3 +287,4 @@ public class LightSaber extends AppCompatActivity {
 
 
 }
+

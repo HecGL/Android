@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
         android:text=""
-        android:textSize="200sp" />
+        android:textSize="200sp"
+        android:textColor="@color/Silver"/>
 
 
     <Button
