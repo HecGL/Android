@@ -1,3 +1,7 @@
+//Funcionalidad de la calculadora, hecha por David Luengo Moraleja - 12230
+
+
+
 package com.example.hguti.multi;
 
 import android.content.pm.ActivityInfo;

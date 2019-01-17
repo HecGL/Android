@@ -17,3 +17,7 @@
         android:background="@drawable/lightsaberon_off"/>
 
 </RelativeLayout>
+
+    <!--
+    Distribución de pantalla del giroscopio (sable láser), hecha por David Luengo Moraleja, 12230
+    -->

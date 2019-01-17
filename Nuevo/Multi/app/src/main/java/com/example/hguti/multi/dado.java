@@ -1,3 +1,5 @@
+//Funcionalidad del dado, hecha por Andrea Presa Montesinos - 14354
+
 package com.example.hguti.multi;
 
 import android.os.Bundle;

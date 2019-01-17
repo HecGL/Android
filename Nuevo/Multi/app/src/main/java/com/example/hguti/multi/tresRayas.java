@@ -1,3 +1,5 @@
+//Funcionalidad del juego multijugador Tres en raya, hecha por Andrea Presa Montesinos- 14354
+
 package com.example.hguti.multi;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
