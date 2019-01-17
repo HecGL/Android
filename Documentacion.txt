@@ -1,0 +1,54 @@
+ _________________________________________________________________________________________________________________  
+|        _     _  ______   __       __  ______ _____            ____     ______    _____     ______    _____      | 
+|       | \   | | |  ___|  \ \     / / |  ___| | __ \          |    \   /   _  \   | __ \    |  ___|  |   _  \    | 
+|	| \\  | | | |___    \ \   / /  | |___  | |_| |         | |>  | |   | |  |  | |_| |   | |___   |  | |  |   | 
+|       | |\\ | | | ____|    \ \ / /   | ____| |    _/         |    /  |   | |  |  |    _/   | ____|  |  | |  |   | 
+|	| | \\| | | |___      \ \ /    | |___  || \  \         | |> \  |   |_|  |  || \  \   | |___   |  |_|  |   | 
+|       |_|  \__| |_____|      \_/     |_____| ||  \__\        |___ /   \______/   ||  \__\  |_____|  |______/    |  
+|_________________________________________________________________________________________________________________| 
+ 
+
+Nombre de la aplicación: NeverBored.
+
+Actividad principal: MainActivity.java
+
+Finalidad del programa: NeverBored es una aplicación de entretenimiento. En la pantalla principal podrás acceder a multitud de juegos, 
+pasatiempos y utilidades con las que podrás interactuar tú solo o con un amigo. Además es una app repleta de easter eggs, por lo que más
+te vale estar bien atento a todo lo que te encuentres para disfrutar al 100% de esta app. ¡Cuidado!, puede que encuentres algunos 
+secretos ocultos.
+
+Funcionalidades:
+
+1)	Piano:		Una escala completa del teclado para melodías sencillas.
+2)	Tres en raya:	Tradicional juego "3 en raya" al que podrás jugar acompañado.
+3)	Dado:		Esta funcionalidad te permite jugar a juegos de dados asegurando la aleatoriedad de cada tirada. 
+4)	Calculadora:	Una calculadora sencilla que permite realizar cuentas rápidas.
+5)	Giroscopio:	Haciendo uso del acelerómetro del dispositivo, emula el sonido dinámico de un sable láser.
+6)	Créditos:	Descripción de los desarrolladores de la aplicación y agradecimientos a los que la han hecho posible.
+
+
+
+
+
+Aclaraciones:
+	Los comentarios de los archivos JAVA están al principio (A qué pertenece ese archivo, nombre del responsable y número de matrícula).
+
+Durante el desarrollo de este trabajo hemos creado un repositorio para facilitar el seguimiento de las versiones, 
+simplificando nuestra forma de trabajar al tenerlo almacenado en la nube. Es un repositorio público al que cualquiera puede tener acceso.
+
+El enlace a dicho repositorio es: https://github.com/HecGL/Android
+
+
+
+
+
+
+
+
+Realizado por:
+
+	Héctor Gutiérrez Li - 15202
+	David Luengo Moraleja - 12230
+	Andrea Presa Montesinos - 14354
+	
+
