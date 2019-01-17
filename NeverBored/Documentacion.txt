@@ -38,6 +38,9 @@ simplificando nuestra forma de trabajar al tenerlo almacenado en la nube. Es un 
 
 El enlace a dicho repositorio es: https://github.com/HecGL/Android
 
+La aplicación se encuentra dentro de la carpeta NeverBored, y la carpeta del proyecto
+se llama Multi
+
 
 
 
