@@ -289,12 +289,14 @@ public class Calculator extends AppCompatActivity {
 
     public void Erase(){
         String st = current_tx.getText().toString();
-        String point_st = st.substring(st.length()-1);
-        if (point_st.equals(".")){
-            isPoint = false;
+        if(st.length()>0){
+            String point_st = st.substring(st.length()-1);
+            if (point_st.equals(".")){
+                isPoint = false;
+            }
+            st = st.substring(0, st.length()-1);
+            current_tx.setText(st);
         }
-        st = st.substring(0, st.length()-1);
-        current_tx.setText(st);
     }
 
     public void Clear(){

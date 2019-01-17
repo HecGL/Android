@@ -5,7 +5,11 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class Credits extends AppCompatActivity {
     int counter;
@@ -14,7 +18,7 @@ public class Credits extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_credits);
         counter = 0;
-    final Button button = (Button) findViewById(R.id.HiddenBtnCredits);
+    final TextView button = (TextView) findViewById(R.id.HiddenBtnCredits);
     button.setOnClickListener(new View.OnClickListener(){
         public void onClick(View v){
             counter ++;

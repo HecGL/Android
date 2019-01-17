@@ -10,19 +10,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <Button
-            android:id="@+id/HiddenBtnCredits"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/Credits_title"
-            android:textColor="@color/pureBlack"
-            android:textSize="35sp"
-            android:textStyle="bold"
-            android:fontFamily="casual"/>
-
+            <TextView
+                android:id="@+id/HiddenBtnCredits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:text="@string/Credits_title"
+                android:textColor="@color/pureBlack"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="casual" >
+            </TextView>
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -89,6 +89,13 @@
             android:textStyle="italic"
             android:textSize="15sp"
             android:textColor="@color/pureBlack"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/legal"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:textColor="@color/Silver"/>
     </LinearLayout>
     </ScrollView>
 
