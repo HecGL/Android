@@ -73,4 +73,9 @@ public class MainActivity extends AppCompatActivity {
         Intent solicitud = new Intent(this, Calculator.class);
         startActivity(solicitud);
     }
+
+    public void Gotolightsaber(View view){
+        Intent solicitud = new Intent(this, LightSaber.class);
+        startActivity(solicitud);
+    }
 }
