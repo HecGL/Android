@@ -25,3 +25,10 @@ Funcionalidades:
 4)	Calculadora:	Una calculadora sencilla que permite realizar cuentas rápidas.
 5)	Giroscopio:	Haciendo uso del acelerómetro del dispositivo, emula el sonido dinámico de un sable láser.
 6)	Créditos:	Descripción de los desarrolladores de la aplicación y agradecimientos a los que la han hecho posible.
+
+Realizado por:
+
+	Héctor Gutiérrez Li - 15202
+	David Luengo Moraleja - 12230
+	Andrea Presa Montesinos - 14354
+	
