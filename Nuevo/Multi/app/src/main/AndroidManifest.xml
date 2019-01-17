@@ -35,7 +35,6 @@
         <activity android:name=".Calculator"
             android:configChanges="orientation"
             android:screenOrientation="portrait"></activity>
-            android:configChanges="orientation"
     </application>
 
 </manifest>
