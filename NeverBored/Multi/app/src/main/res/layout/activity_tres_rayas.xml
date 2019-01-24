@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tresRayas">
+    tools:context=".tresRayas"
+    android:background="@drawable/mosaico">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -21,9 +22,9 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginStart="70dp"
                 android:layout_marginLeft="40dp"
-                android:layout_marginTop="70dp"
-                android:textSize="25dp"
-                android:text="" />
+                android:layout_marginTop="100dp"
+                android:text=""
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/casilla12"
@@ -31,9 +32,9 @@
                 android:layout_height="80dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:layout_marginTop="70dp"
-                android:textSize="25dp"
-                android:text="" />
+                android:layout_marginTop="100dp"
+                android:text=""
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/casilla13"
@@ -41,9 +42,9 @@
                 android:layout_height="80dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:layout_marginTop="70dp"
-                android:textSize="25dp"
-                android:text="" />
+                android:layout_marginTop="100dp"
+                android:text=""
+                android:textSize="25dp" />
 
         </TableRow>
 
@@ -59,8 +60,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginStart="70dp"
                 android:layout_marginLeft="40dp"
-                android:textSize="25dp"
-                android:text="" />
+                android:text=""
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/casilla22"
@@ -68,8 +69,8 @@
                 android:layout_height="80dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:textSize="25dp"
-                android:text="" />
+                android:text=""
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/casilla23"
@@ -77,8 +78,8 @@
                 android:layout_height="80dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:textSize="25dp"
-                android:text="" />
+                android:text=""
+                android:textSize="25dp" />
 
         </TableRow>
 
@@ -94,8 +95,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginStart="70dp"
                 android:layout_marginLeft="40dp"
-                android:textSize="25dp"
-                android:text="" />
+                android:text=""
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/casilla32"
@@ -103,8 +104,8 @@
                 android:layout_height="80dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:textSize="25dp"
-                android:text="" />
+                android:text=""
+                android:textSize="25dp" />
 
             <Button
                 android:id="@+id/casilla33"
@@ -112,8 +113,8 @@
                 android:layout_height="80dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:textSize="25dp"
-                android:text="" />
+                android:text=""
+                android:textSize="25dp" />
 
         </TableRow>
 
@@ -127,7 +128,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="550dp"
         android:text="@string/juego_nuevo" />
 
 </FrameLayout>
