@@ -131,3 +131,8 @@
         android:text="@string/juego_nuevo" />
 
 </FrameLayout>
+
+
+    <!--
+     Distribución de pantalla del juego multijugador Tres en raya, hecha por Andrea Presa Montesinos, 14354
+     -->

@@ -26,9 +26,32 @@ Funcionalidades:
 5)	Giroscopio:	Haciendo uso del acelerómetro del dispositivo, emula el sonido dinámico de un sable láser.
 6)	Créditos:	Descripción de los desarrolladores de la aplicación y agradecimientos a los que la han hecho posible.
 
+
+
+
+
+Aclaraciones:
+	Los comentarios de los archivos JAVA están al principio (A qué pertenece ese archivo, nombre del responsable y número de matrícula).
+
+Durante el desarrollo de este trabajo hemos creado un repositorio para facilitar el seguimiento de las versiones, 
+simplificando nuestra forma de trabajar al tenerlo almacenado en la nube. Es un repositorio público al que cualquiera puede tener acceso.
+
+El enlace a dicho repositorio es: https://github.com/HecGL/Android
+
+La aplicación se encuentra dentro de la carpeta NeverBored, y la carpeta del proyecto
+se llama Multi
+
+
+
+
+
+
+
+
 Realizado por:
 
 	Héctor Gutiérrez Li - 15202
 	David Luengo Moraleja - 12230
 	Andrea Presa Montesinos - 14354
 	
+

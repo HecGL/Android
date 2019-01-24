@@ -1,3 +1,5 @@
+//Funcionalidad de la pantalla de inicio, hecha por Héctor Gutiérrez Li - 15202
+
 package com.example.hguti.multi;
 
 import android.content.Intent;

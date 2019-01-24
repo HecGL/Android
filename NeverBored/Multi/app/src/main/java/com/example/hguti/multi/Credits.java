@@ -1,3 +1,5 @@
+//Funcionalidad de los créditos, hecha por Héctor Gutiérrez Li - 15202
+
 package com.example.hguti.multi;
 
 import android.support.v7.app.AppCompatActivity;

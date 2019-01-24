@@ -1,3 +1,5 @@
+//Funcionalidad del teclado de piano, hecha por Héctor Gutiérrez Li- 15202
+
 package com.example.hguti.multi;
 
 import android.media.MediaPlayer;
